@@ -7,5 +7,5 @@ services:
       context: .
       dockerfile: Gateway/Dockerfile
     ports:
-      - 45555:80
-      - 45556:443
+      - 45550:80
+      - 45551:443
