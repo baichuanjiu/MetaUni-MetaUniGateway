@@ -84,16 +84,16 @@
       },
 
       //上游请求地址
-      "UpstreamPathTemplate": "/userAPI/{url}",
+      "UpstreamPathTemplate": "/metaUni/userAPI/{url}",
       //HTTP谓词
       "UpstreamHttpMethod": [ "GET", "POST", "DELETE", "PUT" ],
       //使用服务发现
       "UseServiceDiscovery": true,
       //Consul服务名称
-      "ServiceName": "User.API",
+      "ServiceName": "MetaUni.User.API",
       //缓存设置
       //"FileCacheOptions": {
-      //  "TtlSeconds": 3, //缓存时间，单位秒
+      //  "TtlSeconds": 5, //缓存时间，单位秒
       //  "Region": "CacheArea" //定义缓存区名，可以调用OcelotApi清除该缓存区
       //},
       //熔断设置
