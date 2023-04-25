@@ -16,6 +16,9 @@ builder.Services.AddOcelot().AddPolly().AddConsul().AddCacheManager(x => x.WithD
 
 var app = builder.Build();
 
+//≈‰÷√WebSocket
+app.UseWebSockets();
+
 app.UseOcelot().Wait();
 
 app.Run();
